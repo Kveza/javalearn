@@ -1,0 +1,24 @@
+let username = 'Cabeza';
+username ? alert(`Hello, ${username}`) : alert('Hello!');
+const userQuestion = '¿Voy a encontrar trabajo?';
+alert(userQuestion);
+const randomNumber = Math.floor(Math.random() * 8);
+if (randomNumber === 1) {
+    alert('obvio');
+} else if (randomNumber === 2) {
+    alert('bastante seguro que si');
+} else if (randomNumber === 3) {
+    alert('puede que si');
+} else if (randomNumber === 4) {
+    alert('probablemente');
+} else if (randomNumber === 5) {
+    alert('puede que si o puede que no');
+} else if (randomNumber === 6) {
+    alert('capaz que no');
+} else if (randomNumber === 7) {
+    alert('che, creo que no');
+} else if (randomNumber === 8) {
+    alert('ni en pedo');
+} else {
+    alert('ni puta idea');
+};
