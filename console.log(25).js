@@ -243,7 +243,7 @@ if (randomNumber === 1) {
     alert(eightBall = 'ni puta idea');
 };*/
 
-let username = 'Cabeza';
+/*let username = 'Cabeza';
 username ? alert(`Hello, ${username}`) : alert('Hello!');
 const userQuestion = '¿Voy a encontrar trabajo?';
 alert(userQuestion);
@@ -266,4 +266,22 @@ if (randomNumber === 1) {
     alert('ni en pedo');
 } else {
     alert('ni puta idea');
+};*/
+
+let raceNumber = Math.floor(Math.random() * 1000);
+let runnerAge = 19;
+let runnerEarly = false;
+if (runnerEarly === true && runnerAge > 18) {
+    raceNumber += 1000;
+} else {
+    raceNumber === raceNumber;
+};
+if (runnerAge > 18 && runnerEarly === true) {
+    alert(`La carrera empieza a las 9 am con el numero ${raceNumber}`);
+} else if (runnerAge > 18 && runnerEarly === false) {
+    alert(`La carrera comienza a las 11 am con el numero ${raceNumber}`);
+} else if (runnerAge < 18) {
+    alert(`La carrera comienza a las 12:30 am con el numero ${raceNumber}`);
+} else {
+    alert(`Anda al escritorio pete`);
 };
